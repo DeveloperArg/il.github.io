@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="author" content="Nelson Gamarra"/>
+<meta name="generator" content="Sublime Text"/>
+<meta http-equiv="expires" content="0"/>
+<meta http-equiv="pragma" content="no-cache"/>
+<meta name="viewport" content="width=device-width, user-scalable=no"/>
+<meta name="description" content="Maquetado E-mail Marketing a partir de una gráfica con proyección al desarrollo de Landing Page..."/>
+<meta name="keywords" content="diseño web, desarrollo web, maquetado web, página web, email marketing, marketing digital, dan, ng desarrollos web, landing pages"/>
+
+<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico"/>
+<link rel="icon" type="image/x-icon" href="img/favicon.ico"/>
+<link rel="apple-touch-icon" href="img/favicon.ico"/>
+
+
+<title>Formulario Web</title>
+
+<link href="https://fonts.googleapis.com/css?family=Merriweather:300" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet"/>
+<link rel="stylesheet" href="../css/webform.css" type="text/css" media="screen"/>
+
+
+
+
+</head>
+
+<body>
+
+<div id="contenedorDatos">
+	
+	<p class="titulo">Usted esta por solicitar una RESERVA con los siguientes Datos:</p>
+
+</div>
+<div id="impresionDatos"><p>hola esto es iuna prubas para ver como se de fine el paddind dentro del contenedor de datos</p></div>
+
+<div id="wrapper">
+
+<div id="content">
+	<!--Formulario-->
+
+<form id="formulario" action="form.php" method="post" enctype="text/plain">
+
+			<fieldset>
+
+				<legend>Para realizar una RESERVA, complete el siguiente Formulario.</legend><br/>
+
+				<label for="nombre">Nombre</label><br/>
+				<input tabindex="1" type="text" id="nombre" name="nombre"  maxlength="20" value=""/><br/>
+	
+				<label for="apellido">Apellido</label><br/>
+				<input tabindex="2" type="text" id="apellido" name="apellido" maxlength="20" value=""/><br/>
+
+				<label for="telefono">Tel&eacute;fono</label><br/>
+				<input tabindex="3" type="text" id="telefono" name="telefono" maxlength="20" value="(COD)7777-8888"/><br/>
+
+				<label for="mail">E-m@il</label><br/>
+				<input tabindex="4" type="text" id="mail" name="mail" maxlength="40" value=""/><br/>
+
+				<label for="comensales">Comensales</label><br/>
+				<input tabindex="5" type="text" id="comensales" name="comensales" maxlength="40" value="00"/><br/>
+
+				<label for="fecha">Fecha</label><br/>
+				<input tabindex="6" type="text" id="fecha" name="fecha" maxlength="40" value="00/00/0000"/><br/>
+
+				<label for="hora">Hora</label><br/>
+				<select tabindex="7" name="hora">
+					<option value="0">Elija Horario</option>
+					<option value="1">13:00 Hs</option>
+					<option value="2">14:00 Hs</option>
+					<option value="3">15:00 Hs</option>
+					<option value="4">16:00 Hs</option>
+					<option value="5">17:00 Hs</option>
+					<option value="6">18:00 Hs</option>
+					<option value="7">19:00 Hs</option>
+					<option value="8">20:00 Hs</option>
+					<option value="9">21:00 Hs</option>
+					<option value="10">22:00 Hs</option>
+					<option value="11">23:00 Hs</option>
+				</select><br/>
+
+				<!--<label for="local">Seleccione Local</label><br/>-->
+				<div id="locales">
+					<span class="locales" tabindex="8"><h2>Beruti 3391, Capital.</h2><img src="../img/beruti.jpg" name="beruti" id="B"/></span>
+					<span class="locales" tabindex="9"><h2>Av. Corrientes 959, Capital</h2><img src="../img/obelisco.jpg" name="obelisco" id="O"/></span>
+					<span class="locales" tabindex="10"><h2>Av. Corrientes 1269, Capital</h2><img src="../img/tribunales.jpg" name="tribunales" id="T"/></span>
+					<span class="locales" tabindex="11"><h2>Alicia M. de Justo 102, Capital</h2><img src="../img/madero.jpg" name="madero" id="M"/></span>
+					<span class="locales" tabindex="12"><h2>Av. Rafael Nu&ntilde;ez 4005, C&oacute;rdoba</h2><img src="../img/cordoba.jpg" name="madero" id="C"/></span>
+				</div><br/>
+
+				<label for="mensaje">Mensaje</label><br/>
+				<textarea id="mensaje" name="mensaje" rows="4"  cols="40" value="Complete esta área con información adicional que considere necesaria.">Complete esta área con información adicional que considere necesaria.</textarea><br/>
+			
+				<button type="button" name="boton" onClick="verMatriz();">Volver</button><!--Reemplazar por input RESET-->
+
+
+				<button type="button" name="boton" id="botonNext" >Siguiente</button>
+		
+				<img class="footer" src="../img/pasta-pomodoro.jpg"/>
+			</fieldset>
+
+</form>	
+
+<!--Fin formulario-->
+
+
+
+</div>
+
+</div>
+
+<script type="text/javascript" src="../js/validacion.js"></script>
+
+<script type="text/javascript" src="../js/sustituir.js"></script>
+
+</body>
+
+</html>
