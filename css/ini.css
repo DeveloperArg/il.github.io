@@ -1,0 +1,249 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+body{
+	background-color: black;/*#330033*/
+	font-family: 'arial', sans-serif;
+}
+
+div#wrapper{
+	min-width: 300px;
+	max-width: 1030px;
+	margin: 0 auto;
+	overflow: hidden;
+	
+}
+
+div#content{
+	margin: 20px;
+	border: 1px solid white;
+	overflow: hidden;
+}
+
+.left{
+	position: absolute;
+	left: 0px;
+	width: 150px;
+	height: 150px;
+	margin: 20px 20px 20px 40px;
+	display: inline;
+	cursor: pointer;
+
+}
+
+@media screen and (max-width:700px){
+	.left{
+		position: relative;
+		display: block;
+		margin: 20px;
+	}
+	.etiqueta{
+		margin-top: 0px!important;
+	}
+	
+}
+
+@media screen and (min-width: 1028px){
+	.left{
+		position: absolute;
+		margin-left: 20px;
+		left: auto;
+		display: block;
+	}
+
+}
+
+@media screen and (max-width:500px){
+		.left{
+			width: 80px;
+			height: 80px;
+			margin: 20px;
+		}
+		div#content{
+			border: none;
+			margin: 0px;
+		}
+	}
+
+.imgC{
+	width: 100%;
+}
+
+.etiqueta{
+	width: 290px;
+	height: 300px;
+	padding-top: 20px;
+	margin-top: 100px;
+	display: inline-block;
+	color: white;
+	font-family: 'Fira Sans', sans-serif;
+}
+
+.promo{
+	font-size: 170px;
+	font-weight: bolder;
+	line-height: 85px;
+	letter-spacing: 3px;
+	
+}
+
+.titulo{
+	font-size: 70px;
+	font-weight: bolder;
+	line-height: 60px;
+	letter-spacing: 11px;
+}
+
+.arreglo{
+	letter-spacing: 4px;
+}
+
+div.barra{
+	margin-top: 20px;
+}
+
+div.barra span{
+	width: 90px;
+	height: 18px;
+	border: 1px solid black;
+	display: inline-block;
+	margin-left: -5px;
+
+}
+
+.uno{
+	background-color: green;
+}
+
+.dos{
+	background-color: white;
+}
+.tres{
+	background-color: red;
+}
+
+.lema{
+
+	width: 100%;
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Merriweather', serif;
+	color: white;
+	margin-bottom: 10px;
+}
+
+div.detalles{
+	width: 100%;
+	color: white;
+	background-color: red;
+}
+
+div.locales{
+	width: 200px;
+	display: inline-block;
+	margin: 15px 15px 15px 15px;
+	font-size: 20px;
+	vertical-align: middle;
+}
+
+p.dias{
+	font-size: 25px;
+	font-weight: bold;
+	padding: 10px;
+
+}
+
+p.diaesp{
+	font-size: 25px;
+	font-weight: bold;
+	margin: 10px;
+	display: inline;
+
+}
+
+div.finde{
+	width: 80%;
+	margin: 0px 0px 30px 0px;
+	padding: 15px;
+	display: inline-block;
+	background-color: brown;
+
+}
+
+div.finde span{
+	display: inline-block;
+	font-size: 20px;
+	padding: 0px;
+}
+
+
+/*Botón Call to Action*/
+div.call a{
+	text-decoration: none;
+	border: none;
+	color: white;
+	text-align: center;
+
+}
+
+div.call{
+	width: 250px;
+	font-size: 30px;
+	padding: 15px;
+	display: inline;
+	background-color: red;
+	position: relative;
+	bottom: 20px;
+	z-index: 10;
+	cursor: pointer;
+	color: white;
+
+}
+
+div.call:hover{
+	background-color: brown;
+
+}
+
+/*Pie de página*/
+
+div.footer{
+	width: 100%;
+	color: white;
+	overflow: hidden;
+	
+}
+
+div.footer p{
+	margin: 20px;
+	text-align: center;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+img.redes{
+	width: 35px;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 15px;
+	cursor: pointer;
+}
+
+div.footer div{
+	display: inline-block;
+	margin: 5px;
+	
+}
+
+a#terminos{
+	color: white;
+	text-decoration: none;
+	border: 1px solid yellow;
+	position: relative;
+	left: 445px;
+	padding: 10px;
+
+}
+

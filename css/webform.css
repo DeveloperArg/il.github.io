@@ -1,0 +1,153 @@
+*{
+	text-align: center;
+	color: white;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'arial', sans-serif;
+	font-size: 18px;
+}
+
+div#wrapper{
+	min-width: 300px;
+	max-width: 1030px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+/*Definir html para imprimir datos desde JS*/
+div#contenedorDatos{
+	position: fixed;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	max-width: 1030px;
+	height: auto;
+	margin: 0 auto;
+	background-color: orange;
+	color: black;
+	display: none;
+
+}
+
+div#impresionDatos{
+	position: fixed;
+	width: 300px;
+	height: 500px;
+	top: 50%;
+	left: 50%;
+	margin-left: -150px;
+	margin-top:  -250px;
+	border: 1px solid yellow; 
+	display: none;
+	background-color: green;
+}
+
+p.titulo{
+	margin: 30px;
+	color: gray;
+}
+
+/*-------------------------------------------*/
+
+body{
+	background-color: black;
+
+}
+
+fieldset{
+	border: 1px solid white;
+	margin: 20px;
+}
+
+@media screen and (max-width:500px){
+	fieldset{
+		border: none;
+		margin: 0px;
+	}
+}
+
+input, select{
+	background-color: black;
+	/*border-radius: 10px;*/
+	border: 3px solid white;
+	margin: 0px 0px 15px 0px;
+	width: 250px;
+	height: 40px;
+}
+
+textarea{
+	background-color: black;
+	/*border-radius: 10px;*/
+	border: 3px solid white;
+	margin: 5px;
+	padding: 8px;
+	width: 265px;
+	height: 150px;
+	text-align: justify;
+}
+
+button{
+	background-color: black;
+	border-radius: 10px;
+	border: 3px solid white;
+	margin: 10px;
+	padding: 5px;
+	width: 100px;
+	height: 40px;
+	overflow: hidden;
+	cursor: pointer;
+
+}
+
+a.boton{
+	text-decoration: none;
+	border: none;
+}
+
+legend{
+	margin: 15px;
+	font-size: 25px;
+	width: 95%;
+	/*text-align: center!important;*/
+	display: inline-block;
+}
+
+label{
+	/*border: 1px solid white;*/
+	margin-top: 30px;
+	font-size: 20px;
+	color: silver;
+}
+
+span.locales{
+	display: inline-block;
+	cursor: pointer;
+
+}
+
+img{
+	width: 280px;
+	height: 280px;
+	border: 1px solid silver;
+	/*border-radius: 40px;*/
+}
+
+div#locales{
+	margin-top: 30px;
+}
+
+h1{
+
+}
+
+h2{
+	padding: 3px;
+}
+
+img.footer{
+	width: 100%;
+	height: auto;
+	border: none;
+
+}
